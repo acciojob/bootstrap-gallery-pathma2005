@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+.card {
+      border-radius: 8px; /* ensures border-radius */
+    }
+    .card h6, .card p, h2 {
+      text-align: center; /* ensures center text */
+    }
+    /* Simple lightbox effect */
+    .lightbox img {
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .lightbox img:hover {
+      transform: scale(1.05);
+    }
+
